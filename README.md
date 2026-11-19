@@ -30,13 +30,9 @@ This Power BI reporting system was engineered to deliver actionable, data-driven
 
 ## 🖼️ Dashboard Preview
 
-| Facebook Performance Page | Instagram Performance Page |
+| Facebook Performance View (Scale & Conversion Lead) | Instagram Performance View (Engagement & Creative Formats) |
 | :---: | :---: |
 | ![Facebook Page](assets/facebook_view.png) | ![Instagram Page](assets/instagram_view.png) |
-
-| Calendar Heatmap with Custom Hover Tooltip | Star Schema Data Model Architecture |
-| :---: | :---: |
-| ![Calendar Tooltip](assets/calendar_tooltip.png) | ![Data Model](assets/data_model.png) |
 
 ---
 
@@ -129,9 +125,7 @@ The reporting model is structured as an optimized **Star Schema** to ensure high
 ```text
 ├── assets/
 │   ├── facebook_view.png                   # Facebook Analytics Page preview
-│   ├── instagram_view.png                  # Instagram Analytics Page preview
-│   ├── calendar_tooltip.png                # Calendar Heatmap with Tooltip preview
-│   └── data_model.png                      # Star Schema Relationship view
+│   └── instagram_view.png                  # Instagram Analytics Page preview
 ├── Meta_ads_analytics.pbix                 # Full interactive Power BI Desktop workbook (12.3 MB)
 ├── DAX_Measures.md                         # Complete catalog of DAX formulas & logic
 ├── .gitignore                              # Git exclusion rules for Power BI temporary files
