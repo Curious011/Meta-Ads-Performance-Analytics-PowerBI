@@ -62,22 +62,20 @@ This Power BI reporting system was engineered to deliver actionable, data-driven
   * Across **both platforms**, standard **Static Images** produced the lowest conversion efficiency (4.91% on FB, 4.35% on IG).
 * **Strategic Recommendation**: Stop syndicating identical creatives across platforms. Shift Instagram creative budget toward multi-slide Carousels and concentrate Facebook production on vertical Story/Reel experiences.
 
----
-
-### 2. Flat 24/7 Pacing vs. 55% Fluctuations in Buying Intent (Dayparting)
-* **The Finding**: Ad impressions were delivered uniformly 24/7 without time-based pacing (~14,100 impressions delivered every single hour; ~85,000 impressions in Morning, Afternoon, Evening, and Night).
-* **The Inefficiency**:
-  * **Peak Purchase Hours**: Early morning at **7:00 AM (6.49% CVR, 107 purchases)** and late night at **12:00 AM Midnight (6.01% CVR, 103 purchases)**.
-  * **Trough Hours**: Midday at **12:00 PM (4.39% CVR, 76 purchases)** and evening at **8:00 PM (4.17% CVR, 72 purchases)**.
-* **Strategic Recommendation**: Configure **ad dayparting / automated bid scheduling** to reduce bid caps by 20–30% during low-converting afternoon and dinner browsing periods, scaling budgets during morning and night checkout windows to capture up to 55% higher conversion efficiency.
+> 📌 **Resume Highlight**:  
+> * **Uncovered platform-specific creative affinities:** Demonstrated that **Stories** drove peak conversion on Facebook (**5.52% CVR, 464 purchases**), while **Carousel ads** outperformed on Instagram (**5.23% CVR, 238 purchases**), identifying format-specific budget optimization strategies.
 
 ---
 
-### 3. Extreme Campaign Unit Economic Dispersion (55x CAC Spread)
-* **The Finding**: Across 50 evaluated campaigns, Customer Acquisition Cost (CAC) ranged from a low of **$118.18** up to **$6,511.53**—a **55x variance**.
-  * **Top Performers**: Focused seasonal campaigns (e.g., `Campaign_42_Summer` at **$118 CAC** / $4.96 CPC and `Campaign_29_Winter` at **$341 CAC** / $13.88 CPC).
-  * **Underperformers**: Broad launch and general awareness initiatives (e.g., `Campaign_35_Launch` at **$6,511 CAC** / $359.93 CPC and `Campaign_50_Summer` at **$5,909 CAC** / $264.10 CPC).
-* **Strategic Recommendation**: Establish an automated portfolio shutdown rule pausing any campaign exceeding **$2,000 CAC** or **$150 CPC**, immediately reallocating freed capital into top-quartile seasonal campaigns.
+### 2. Full-Funnel Drop-Off: High Engagement vs. Post-Click Conversion Leakage
+* **The Finding**: Despite top-decile engagement on both platforms (~**11.8% CTR**, **13.58% engagement rate**), over **94.9% of user traffic dropped off post-click**, resulting in a low **5.07% blended conversion rate** and a **0.60% overall purchase rate**.
+* **Cross-Platform Breakdown**:
+  * **Facebook**: Delivered **25.4K clicks** (**11.76% CTR**) and converted **1,323 purchases** (**5.21% CVR**).
+  * **Instagram**: Drove higher click-through engagement (**14.7K clicks**, **11.86% CTR**), but lower purchase conversion (**708 purchases**, **4.82% CVR**).
+* **Strategic Recommendation**: Because top-of-funnel creative appeal was strong, the drop-off bottleneck was concentrated post-click. Recommended streamlining landing page checkout flows, reducing mobile checkout friction, and deploying segmented retargeting to capture the ~95% of traffic abandoning checkout.
+
+> 📌 **Resume Highlight**:  
+> * **Identified post-click conversion drop-off across Facebook and Instagram:** Despite strong engagement on both platforms (**~11.8% CTR**), only **5.2% of Facebook clicks** (1,323 purchases) and **4.8% of Instagram clicks** (708 purchases) converted into sales, revealing significant checkout friction and guiding landing page optimization.
 
 ---
 
