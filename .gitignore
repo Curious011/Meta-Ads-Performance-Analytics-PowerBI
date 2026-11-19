@@ -1,0 +1,17 @@
+# Power BI temporary & backup files
+*.tmp
+*.temp
+~$*
+*.lock
+*.bak
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-workspace
