@@ -129,7 +129,7 @@ The reporting model is structured as an optimized **Star Schema** to ensure high
 │   ├── instagram_view.png                  # Instagram Analytics Page preview
 │   ├── calendar_tooltip.png                # Calendar Heatmap with Tooltip preview
 │   └── data_model.png                      # Star Schema Relationship view
-├── Meta_Ads_Performance_Analytics.pbix     # Full interactive Power BI Desktop workbook
+├── Meta_ads_analytics.pbix                 # Full interactive Power BI Desktop workbook (12.3 MB)
 ├── DAX_Measures.md                         # Complete catalog of DAX formulas & logic
 ├── .gitignore                              # Git exclusion rules for Power BI temporary files
 └── README.md                               # Project documentation & insight breakdown
@@ -144,7 +144,7 @@ The reporting model is structured as an optimized **Star Schema** to ensure high
    git clone https://github.com/Curious011/Meta-Ads-Performance-Analytics-PowerBI.git
    ```
 2. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
-3. Open `Meta_Ads_Performance_Analytics.pbix`.
+3. Open `Meta_ads_analytics.pbix`.
 4. Interact with the slicers, date table filters, and dynamic measure toggle buttons!
 
 ---
