@@ -41,7 +41,6 @@ This Power BI reporting system was engineered to deliver actionable, data-driven
 ### 1. Overall Portfolio Scale
 | Metric | Measure Name | Portfolio Total | Facebook | Instagram | Variance / Channel Insight |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Total Ad Events** | `ad_events (Rows)` | **400,000** | ~254,000 | ~146,000 | 63.5% FB share |
 | **Delivered Impressions** | `[Impressions]` | **339,812** | **215,972** (63.6%) | **123,840** (36.4%) | High volume channel: FB |
 | **Total Clicks** | `[Clicks]` | **40,079** | **25,389** | **14,690** | 11.79% blended CTR |
 | **Click-Through Rate (CTR)** | `[CTR (Click Through Rate)]` | **11.79%** | **11.76%** | **11.86%** | **Instagram +0.10% higher CTR** |
@@ -50,7 +49,6 @@ This Power BI reporting system was engineered to deliver actionable, data-driven
 | **Completed Purchases** | `[Purchases]` | **2,031** | **1,323** (65.1%) | **708** (34.9%) | **Facebook drives 65% of sales** |
 | **Conversion Rate (CVR)** | `[Conversion rate]` | **5.07%** | **5.21%** | **4.82%** | **Facebook +8.1% more efficient** |
 | **Total Ad Budget** | `[Total Budget]` | **$2,535,923.78** | — | — | 50 active campaigns |
-| **Blended CAC** | *Total Budget / Purchases* | **$1,248.61** | — | — | $63.27 Cost Per Click |
 
 ---
 
