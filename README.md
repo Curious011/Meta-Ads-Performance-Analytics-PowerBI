@@ -1,10 +1,13 @@
 # 📊 Meta Ads End-to-End Performance Analytics Dashboard
 
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-View_Interactive_Report-0078D4?style=for-the-badge&logo=powerbi&logoColor=white)](https://app.powerbi.com/view?r=eyJrIjoiODgwMWJlYjctODRlNC00ZWFmLWFkZDMtNmM1Yjk5MjA1OTkwIiwidCI6IjUxMzRkZDExLWZlNDEtNGY3My1iODIyLTg0NDljN2Y1MzA4MCJ9)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Measures_&_Formulas-00758F?style=for-the-badge)
 ![Domain](https://img.shields.io/badge/Domain-Marketing_Analytics-2ea44f?style=for-the-badge)
 
 An interactive, enterprise-grade **Power BI Marketing Analytics & Media Buying Intelligence Dashboard** engineered to evaluate cross-platform advertising efficiency, diagnose full-funnel conversion leakage, and optimize capital allocation across **400,000 ad events**, **50 multi-channel campaigns**, and **$2.54M in total ad spend** across Meta platforms (**Facebook & Instagram**).
+
+> 🔗 **Live Interactive Report**: [Click here to view the live published dashboard](https://app.powerbi.com/view?r=eyJrIjoiODgwMWJlYjctODRlNC00ZWFmLWFkZDMtNmM1Yjk5MjA1OTkwIiwidCI6IjUxMzRkZDExLWZlNDEtNGY3My1iODIyLTg0NDljN2Y1MzA4MCJ9)
 
 ---
 
