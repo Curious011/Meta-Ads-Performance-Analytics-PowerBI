@@ -1,27 +1,24 @@
 # 📊 Meta Ads End-to-End Performance Analytics Dashboard
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Analysis_Services-00758F?style=for-the-badge)
-![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-blue?style=for-the-badge)
-![Marketing Analytics](https://img.shields.io/badge/Domain-Marketing_Analytics-brightgreen?style=for-the-badge)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![DAX](https://img.shields.io/badge/DAX-Measures_&_Formulas-00758F?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-Marketing_Analytics-2ea44f?style=for-the-badge)
 
-An enterprise-grade **Power BI Marketing Analytics & Media Buying Intelligence Dashboard** engineered to evaluate cross-platform advertising efficiency, diagnose full-funnel conversion leakage, and optimize capital allocation across **400,000 ad events**, **50 multi-channel campaigns**, and **$2.54M in total ad spend** across Meta platforms (**Facebook & Instagram**).
+An interactive, enterprise-grade **Power BI Marketing Analytics & Media Buying Intelligence Dashboard** engineered to evaluate cross-platform advertising efficiency, diagnose full-funnel conversion leakage, and optimize capital allocation across **400,000 ad events**, **50 multi-channel campaigns**, and **$2.54M in total ad spend** across Meta platforms (**Facebook & Instagram**).
 
 ---
 
 ## 📌 Business Problem & Objectives
 
 ### The Business Context
-Modern performance marketing teams frequently face a critical disconnect: **optimizing for vanity visibility (impressions, clicks) while remaining blind to bottom-of-funnel customer acquisition costs (CAC) and purchase conversion efficiency**. 
+In cross-platform digital advertising operations, performance marketing teams face a constant strategic challenge: **maximizing purchase conversion efficiency while mitigating ad spend waste and delivery leakage**. Without centralized business intelligence, media buyers and marketing executives face significant operational blind spots:
 
-Without unified business intelligence across campaign dimensions, growth executives face three major strategic blind spots:
 1. **Cross-Platform Format Misalignment**: Applying uniform creative formats across Facebook and Instagram feeds without recognizing platform-specific user consumption behaviors.
 2. **Pacing Inefficiencies & Lack of Dayparting**: Serving ad impressions evenly 24/7, failing to align ad spend with peak high-intent purchasing hours.
 3. **Unit Economic Bleed**: Lacking real-time visibility into campaign-level CAC variance, allowing underperforming campaigns to drain hundreds of thousands of dollars in capital.
 
 ### The Analytical Solution
-This reporting suite was engineered to deliver executive-level and operational-level visibility:
+This Power BI reporting system was engineered to deliver actionable, data-driven answers across two core analytical levels:
 * **Facebook & Instagram Dedicated Performance Pages**: Isolated channel views to benchmark click-through rates (CTR), engagement rates (ER), and conversion rates (CVR) side-by-side.
 * **Interactive Dayparting & Calendar Tooltip Engine**: Hourly area distribution charts and a custom **Calendar Heatmap Matrix** equipped with dynamic report-page hover tooltips for granular daily KPI audits.
 * **Dynamic Parameter Switching**: Integrated **Field Parameters** (`Select Dynamic Measure`) enabling users to toggle charts dynamically between volume counts (Impressions, Clicks, Purchases) and efficiency ratios (CTR, CVR, Engagement Rate) without visual clutter.
@@ -37,8 +34,6 @@ This reporting suite was engineered to deliver executive-level and operational-l
 | Calendar Heatmap with Custom Hover Tooltip | Star Schema Data Model Architecture |
 | :---: | :---: |
 | ![Calendar Tooltip](assets/calendar_tooltip.png) | ![Data Model](assets/data_model.png) |
-
-*(Note: Add high-resolution screenshots to the [`assets/`](assets/) folder to render them above).*
 
 ---
 
@@ -130,12 +125,11 @@ The reporting model is structured as an optimized **Star Schema** to ensure high
 
 ```text
 ├── assets/
-│   ├── README.md                           # Guide for adding dashboard screenshots
 │   ├── facebook_view.png                   # Facebook Analytics Page preview
 │   ├── instagram_view.png                  # Instagram Analytics Page preview
 │   ├── calendar_tooltip.png                # Calendar Heatmap with Tooltip preview
 │   └── data_model.png                      # Star Schema Relationship view
-├── Meta_Ads_Performance_Analytics.pbix     # Full interactive Power BI Desktop workbook (12.3 MB)
+├── Meta_Ads_Performance_Analytics.pbix     # Full interactive Power BI Desktop workbook
 ├── DAX_Measures.md                         # Complete catalog of DAX formulas & logic
 ├── .gitignore                              # Git exclusion rules for Power BI temporary files
 └── README.md                               # Project documentation & insight breakdown
@@ -145,21 +139,17 @@ The reporting model is structured as an optimized **Star Schema** to ensure high
 
 ## 🚀 How to Open and Explore
 
-1. **Clone this repository**:
+1. Clone this repository (or download as ZIP from the green Code button above):
    ```bash
-   git clone https://github.com/<your-username>/Meta-Ads-Performance-Analytics-PowerBI.git
+   git clone https://github.com/Curious011/Meta-Ads-Performance-Analytics-PowerBI.git
    ```
-2. **Prerequisites**:
-   * Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
-3. **Explore the Report**:
-   * Open `Meta_Ads_Performance_Analytics.pbix`.
-   * Navigate between the **Facebook** and **Instagram** reporting tabs.
-   * Toggle between volume and conversion efficiency metrics using the **Select Dynamic Measure** slicer.
-   * Hover over the **Calendar Matrix** cells to inspect daily KPI tooltips.
+2. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
+3. Open `Meta_Ads_Performance_Analytics.pbix`.
+4. Interact with the slicers, date table filters, and dynamic measure toggle buttons!
 
 ---
 
 ## 👤 Author
 * **Harsh Sharma**
-* **Role**: Data Analyst / Business Intelligence Developer
-* **Tools**: Power BI, DAX, Power Query, Star Schema Data Modeling, Marketing Analytics
+* **Project**: Meta Ads End-to-End Performance Analytics
+* **Tools**: Power BI, DAX, Power Query, Marketing Data Analysis
